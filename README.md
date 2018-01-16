@@ -38,7 +38,7 @@ Via `.textlintrc`(recommended):
 ```json
 {
     "rules": {
-        "normalize-whitespaces": true
+        "@0x6b/normalize-whitespaces": true
     }
 }
 ```
@@ -46,7 +46,7 @@ Via `.textlintrc`(recommended):
 Via CLI:
 
 ```
-textlint --rule normalize-whitespaces README.md
+textlint --rule @0x6b/normalize-whitespaces README.md
 ```
 
 ### Build
