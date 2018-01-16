@@ -28,7 +28,7 @@ Install with [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/):
 
 ```sh
 npm install @0x6b/textlint-rule-normalize-whitespaces # or
-yarn @0x6b/textlint-rule-normalize-whitespaces
+yarn add @0x6b/textlint-rule-normalize-whitespaces
 ```
 
 ## Usage
@@ -75,4 +75,4 @@ yarn test
 
 ## License
 
-MIT ©
+MIT © 0x6b
