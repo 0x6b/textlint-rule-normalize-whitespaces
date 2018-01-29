@@ -36,6 +36,9 @@
         "prettier": "^1.10.2",
         "textlint-scripts": "^1.4.2"
     },
+    "engines": {
+        "node": ">= 6"
+    },
     "lint-staged": {
         "*.{js,jsx,ts,tsx,css}": ["git stash --keep-index", "prettier --write", "git stash pop"]
     },
@@ -43,16 +46,14 @@
         "printWidth": 120,
         "tabWidth": 4
     },
-  "babel": {
-    "presets": [
-      "env"
-    ],
-    "sourceMaps": true
-  },
-  "jest": {
-    "displayName": "textlint-rule-normalize-whitespaces",
-    "collectCoverage": true,
-    "verbose": true,
-    "testMatch": ["<rootDir>/test/**/*.js"]
-  }
+    "babel": {
+        "presets": ["env"],
+        "sourceMaps": true
+    },
+    "jest": {
+        "displayName": "textlint-rule-normalize-whitespaces",
+        "collectCoverage": true,
+        "verbose": true,
+        "testMatch": ["<rootDir>/test/**/*.js"]
+    }
 }
