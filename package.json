@@ -1,23 +1,23 @@
 {
     "name": "@0x6b/textlint-rule-normalize-whitespaces",
-    "author": "0x6b",
-    "license": "MIT",
-    "description": "textlint rule which normalizes whitespaces in the document.",
     "version": "1.0.2",
+    "description": "textlint rule which normalizes whitespaces in the document.",
     "keywords": ["textlintrule"],
+    "homepage": "https://github.com/0x6b/textlint-rule-normalize-whitespaces",
+    "bugs": {
+        "url": "https://github.com/0x6b/textlint-rule-normalize-whitespaces/issues"
+    },
+    "license": "MIT",
+    "author": "0x6b",
+    "files": ["lib/", "src/"],
     "main": "lib/index.js",
     "directories": {
         "test": "test"
     },
-    "files": ["lib/", "src/"],
     "repository": {
         "type": "git",
         "url": "https://github.com/0x6b/textlint-rule-normalize-whitespaces.git"
     },
-    "bugs": {
-        "url": "https://github.com/0x6b/textlint-rule-normalize-whitespaces/issues"
-    },
-    "homepage": "https://github.com/0x6b/textlint-rule-normalize-whitespaces",
     "scripts": {
         "build": "textlint-scripts build",
         "precommit": "lint-staged",
@@ -54,5 +54,5 @@
     "collectCoverage": true,
     "verbose": true,
     "testMatch": ["<rootDir>/test/**/*.js"]
-    }
+  }
 }
