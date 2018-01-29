@@ -31,6 +31,8 @@ npm install @0x6b/textlint-rule-normalize-whitespaces # or
 yarn add @0x6b/textlint-rule-normalize-whitespaces
 ```
 
+This module requires Node.js >= 6.
+
 ## Usage
 
 Via `.textlintrc`(recommended):
