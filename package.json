@@ -36,12 +36,13 @@
         "prettier": "^1.10.2",
         "textlint-scripts": "^1.4.2"
     },
+    "lint-staged": {
+        "*.{js,jsx,ts,tsx,css}": ["git stash --keep-index", "prettier --write", "git stash pop"]
+    },
     "prettier": {
         "printWidth": 120,
         "tabWidth": 4
     },
-    "lint-staged": {
-        "*.{js,jsx,ts,tsx,css}": ["prettier --write", "git add"]
   "babel": {
     "presets": [
       "env"
