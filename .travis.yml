@@ -1,0 +1,14 @@
+sudo: false
+language: node_js
+node_js:
+- 4
+- stable
+cache: yarn
+before_install:
+- npm install -g npm@5
+- npm install -g yarn@latest
+install:
+- yarn install --frozen-lockfile
+- yarn build
+script:
+- yarn test
