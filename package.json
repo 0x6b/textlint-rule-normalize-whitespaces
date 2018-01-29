@@ -20,20 +20,21 @@
     "homepage": "https://github.com/0x6b/textlint-rule-normalize-whitespaces",
     "scripts": {
         "build": "textlint-scripts build",
-        "test": "textlint-scripts test",
         "prettier": "prettier --write \"**/*.js\"",
         "precommit": "lint-staged",
         "postcommit": "git reset",
         "prepublish": "npm run --if-present build"
+        "test": "jest",
     },
     "dependencies": {
         "execall": "^1.0.0"
     },
     "devDependencies": {
         "husky": "^0.14.3",
+        "jest": "^22.1.4",
         "lint-staged": "^6.0.0",
         "prettier": "^1.10.2",
-        "textlint-scripts": "^1.2.4"
+        "textlint-scripts": "^1.4.2"
     },
     "prettier": {
         "printWidth": 120,
@@ -41,5 +42,16 @@
     },
     "lint-staged": {
         "*.{js,jsx,ts,tsx,css}": ["prettier --write", "git add"]
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "sourceMaps": true
+  },
+  "jest": {
+    "displayName": "textlint-rule-normalize-whitespaces",
+    "collectCoverage": true,
+    "verbose": true,
+    "testMatch": ["<rootDir>/test/**/*.js"]
     }
 }
