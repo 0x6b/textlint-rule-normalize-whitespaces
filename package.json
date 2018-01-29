@@ -23,7 +23,7 @@
         "prettier": "prettier --write \"**/*.js\"",
         "precommit": "lint-staged",
         "postcommit": "git reset",
-        "prepublish": "npm run --if-present build"
+        "prepublish": "yarn build",
         "test": "jest",
     },
     "dependencies": {
