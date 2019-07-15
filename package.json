@@ -40,7 +40,6 @@
         "@textlint/types": "^1.2.0",
         "@types/node": "^12.6.2",
         "husky": "^0.14.3",
-        "jest": "^22.1.4",
         "lint-staged": "^6.0.0",
         "prettier": "^1.10.2",
         "textlint-scripts": "^3.0.0-beta.1",
@@ -60,13 +59,5 @@
     "prettier": {
         "printWidth": 120,
         "tabWidth": 4
-    },
-    "jest": {
-        "displayName": "textlint-rule-normalize-whitespaces",
-        "collectCoverage": true,
-        "verbose": true,
-        "testMatch": [
-            "<rootDir>/test/**/*.js"
-        ]
     }
 }
