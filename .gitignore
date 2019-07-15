@@ -33,3 +33,4 @@ npm-debug.log
 
 # Publish src/ instead lib/
 /lib
+.idea

@@ -1,5 +1,3 @@
-"use strict";
-
 const SPACE_CHARACTERS = [
     { code: "\u00a0", name: "NO-BREAK SPACE" },
     { code: "\u1680", name: "OGHAM SPACE MARK" },

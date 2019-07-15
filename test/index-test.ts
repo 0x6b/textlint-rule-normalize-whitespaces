@@ -1,9 +1,8 @@
-"use strict";
-
-const TextLintTester = require("textlint-tester");
-const tester = new TextLintTester();
-const rule = require("../src/index");
+import TextLintTester from "textlint-tester";
+import rule from "../src";
 import { SPACE_CHARACTERS } from "../src/SPACE_CHARACTERS";
+
+const tester = new TextLintTester();
 
 const invalidCases = SPACE_CHARACTERS.map(SPACE_CHARACTER => {
     return {
