@@ -24,11 +24,10 @@
 
 ## Install
 
-Install with [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/):
+Install with [npm](https://www.npmjs.com/):
 
 ```sh
-npm install @0x6b/textlint-rule-normalize-whitespaces # or
-yarn add @0x6b/textlint-rule-normalize-whitespaces
+npm install @0x6b/textlint-rule-normalize-whitespaces
 ```
 
 This module requires Node.js >= 6.
@@ -57,8 +56,7 @@ Builds source codes for publish to the `lib/` folder.
 You can write ES2015+ source codes in `src/` folder.
 
 ```sh
-npm install && npm run build # or
-yarn && yarn build
+npm install && npm run build
 ```
 
 ### Test
@@ -66,8 +64,7 @@ yarn && yarn build
 Run test code in `test` folder by [textlint-tester](https://github.com/textlint/textlint-tester "textlint-tester").
 
 ```sh
-npm test # or
-yarn test
+npm test
 ```
 
 ## References

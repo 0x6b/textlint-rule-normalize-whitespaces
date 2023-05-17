@@ -1,6 +1,6 @@
 {
     "name": "@0x6b/textlint-rule-normalize-whitespaces",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "textlint rule which normalizes whitespaces in the document.",
     "keywords": [
         "textlintrule"
@@ -27,7 +27,7 @@
         "build": "textlint-scripts build",
         "precommit": "lint-staged",
         "postcommit": "git reset",
-        "prepublish": "yarn build",
+        "prepublish": "npm run build",
         "test": "textlint-scripts test",
         "prettier": "prettier --write \"**/*.{js,ts,json}\"",
         "watch": "textlint-scripts build --watch"
@@ -37,17 +37,17 @@
         "regenerate": "^1.3.3"
     },
     "devDependencies": {
-        "@textlint/types": "^12.0.2",
-        "@types/node": "^16.7.13",
-        "husky": "^7.0.2",
-        "lint-staged": "^11.1.2",
+        "@textlint/types": "^13.3.2",
+        "@types/node": "^20.1.7",
+        "husky": "^8.0.3",
+        "lint-staged": "^13.2.2",
         "prettier": "^2.3.2",
-        "textlint-scripts": "^12.0.2",
+        "textlint-scripts": "^13.3.2",
         "ts-node": "^10.2.1",
-        "typescript": "^4.4.2"
+        "typescript": "^5.0.4"
     },
     "engines": {
-        "node": ">= 6"
+        "node": ">=16.0.0"
     },
     "lint-staged": {
         "*.{js,jsx,ts,tsx,css}": [
