@@ -1,6 +1,6 @@
 {
     "name": "@0x6b/textlint-rule-normalize-whitespaces",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "textlint rule which normalizes whitespaces in the document.",
     "keywords": [
         "textlintrule"
