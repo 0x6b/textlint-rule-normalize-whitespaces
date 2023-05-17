@@ -27,7 +27,7 @@
         "build": "textlint-scripts build",
         "precommit": "lint-staged",
         "postcommit": "git reset",
-        "prepublish": "yarn build",
+        "prepublish": "npm run build",
         "test": "textlint-scripts test",
         "prettier": "prettier --write \"**/*.{js,ts,json}\"",
         "watch": "textlint-scripts build --watch"
