@@ -6,7 +6,6 @@
 |------------|---------------------------|
 | `U+00A0`   | NO-BREAK SPACE            |
 | `U+1680`   | OGHAM SPACE MARK          |
-| `U+180E`   | MONGOLIAN VOWEL SEPARATOR |
 | `U+2000`   | EN QUAD                   |
 | `U+2001`   | EM QUAD                   |
 | `U+2002`   | EN SPACE                  |
@@ -30,7 +29,7 @@ Install with [npm](https://www.npmjs.com/):
 npm install @0x6b/textlint-rule-normalize-whitespaces
 ```
 
-This module requires Node.js >= 6.
+This module requires Node.js >= 16.0.0.
 
 ## Usage
 
@@ -69,7 +68,7 @@ npm test
 
 ## References
 
-* [The Unicode (r) Standard Version 10.0 Core Specification](https://www.unicode.org/versions/Unicode10.0.0/ch06.pdf), Chapter 6 Writing Systems and Punctuation, Table 6-2. Unicode Space Characters
+* [The Unicode (r) Standard Version 15.0 Core Specification](https://www.unicode.org/versions/Unicode10.0.0/ch06.pdf), Chapter 6 Writing Systems and Punctuation, [Table 6-2. Unicode Space Characters](http://www.unicode.org/versions/Unicode15.0.0/ch06.pdf#G17548)
 * [Unicode spaces](http://jkorpela.fi/chars/spaces.html)
 
 ## License

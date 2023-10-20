@@ -1,7 +1,6 @@
 const SPACE_CHARACTERS = [
     { code: "\u00a0", name: "NO-BREAK SPACE" },
     { code: "\u1680", name: "OGHAM SPACE MARK" },
-    { code: "\u180e", name: "MONGOLIAN VOWEL SEPARATOR" },
     { code: "\u2000", name: "EN QUAD" },
     { code: "\u2001", name: "EM QUAD" },
     { code: "\u2002", name: "EN SPACE" },
