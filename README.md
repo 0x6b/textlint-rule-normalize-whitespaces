@@ -29,7 +29,7 @@ Install with [npm](https://www.npmjs.com/):
 npm install @0x6b/textlint-rule-normalize-whitespaces
 ```
 
-This module requires Node.js >= 6.
+This module requires Node.js >= 16.0.0.
 
 ## Usage
 
