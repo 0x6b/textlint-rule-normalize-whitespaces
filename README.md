@@ -70,7 +70,7 @@ npm test
 ## References
 
 * [The Unicode (r) Standard Version 10.0 Core Specification](https://www.unicode.org/versions/Unicode10.0.0/ch06.pdf), Chapter 6 Writing Systems and Punctuation, Table 6-2. Unicode Space Characters
-* [Unicode spaces]()http://jkorpela.fi/chars/spaces.html)
+* [Unicode spaces](http://jkorpela.fi/chars/spaces.html)
 
 ## License
 
