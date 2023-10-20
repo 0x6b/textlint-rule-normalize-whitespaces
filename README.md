@@ -3,7 +3,7 @@
 [textlint](https://textlint.github.io/) rule which replaces following whitespaces to normal whitespace (`U+0020`) in your document.
 
 | Code Point | Name                      |
-| ---------- | ------------------------- |
+|------------|---------------------------|
 | `U+00A0`   | NO-BREAK SPACE            |
 | `U+1680`   | OGHAM SPACE MARK          |
 | `U+180E`   | MONGOLIAN VOWEL SEPARATOR |
@@ -38,9 +38,9 @@ Via `.textlintrc`(recommended):
 
 ```json
 {
-    "rules": {
-        "@0x6b/normalize-whitespaces": true
-    }
+  "rules": {
+    "@0x6b/normalize-whitespaces": true
+  }
 }
 ```
 
